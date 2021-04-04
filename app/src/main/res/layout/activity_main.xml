@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="1dp"
+        android:layout_weight="1.8"
+        android:background="@color/cardview_light_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/and"/>
+            <TextView
+                android:textAlignment="center"
+                android:text="LogIn dulu ngab :)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_color"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#8B0000"
+            android:textSize="30dp"
+            android:text="LOG IN"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+            <EditText
+                android:paddingLeft="10dp"
+                android:background="@drawable/login"
+                android:drawableStart="@drawable/person"
+                android:hint=" Masukan UserName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"/>
+        <EditText
+            android:paddingLeft="10dp"
+            android:background="@drawable/login"
+            android:drawableStart="@drawable/key"
+            android:hint=" Masukan Password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+            <TextView
+                android:textColor="#8B0000"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:text="Lupa Password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+            <Button
+                android:id="@+id/bottom"
+                android:textStyle="bold"
+                android:background="@drawable/login"
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                android:text="LOG IN"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+        <TextView
+            android:textColor="#8B0000"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:text="Daftar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>
